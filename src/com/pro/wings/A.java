@@ -7,9 +7,11 @@ public class A {
         add(10,20);
     }
 
-    public static void add(int n1, int n2)
+    public static float add(int n1, int n2)
     {
         int res = n1+n2;
+        System.out.println("alksjdlksa");
         System.out.println(res);
+        return 10.5f;
     }
 }
