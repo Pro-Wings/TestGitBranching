@@ -7,9 +7,10 @@ public class A {
         add(10,20);
     }
 
-    public static void add(int n1, int n2)
+    public static int add(int n1, int n2)
     {
         int res = n1+n2;
         System.out.println(res);
+        return res;
     }
 }
